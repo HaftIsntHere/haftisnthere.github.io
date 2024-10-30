@@ -1,1 +1,20 @@
-<iframe src="https://slat.cc/haft" width="100%" height="100%"></iframe>
+
+<style>
+  .responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+  }
+  .responsive-iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+
+<div class="responsive-iframe-container">
+  <iframe src="https://slat.cc/haft" width="100%" height="100%" style="border: none; box-shadow: 0 0 10px rgba(0,0,0,0.1);"></iframe>
+</div>
